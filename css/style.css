@@ -1,4 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 body{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+width: 100vw;
+overflow-x: hidden;
+}
+*{
+    text-decoration: none;
+    list-style-type:none;
+}
+header{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 5%;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Handlee', cursive;
+}
+.logo:active{
+    color: aliceblue;
+}
+.nav-button{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 25px;
+    background-color: aqua;
+    right: 50%;
+    transform: translate( -50%);
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.5em;
+    font-size: 2em;
+    color: aliceblue;
+    cursor: pointer;
+    border: 5px white solid;
+    /* box-shadow: aliceblue 1px 1px 1px 1px; */
+}
+.copywrite{
+    color: white;
+    position: absolute;
+    right: 10%;
+    font-size: .7em;
+
+}
+.nav-button{
+    z-index: 999;
+}
+.navigation{
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+    
+    display: flex;
+
+}
+.navigation li{
+    position: absolute;
+    flex-direction: column;
+    background-color: #003ADB;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: .8rem;
+    bottom: 0;
+    right: 50%;
+    transform: translate(-25%,-30%);
+    transition: all ease .5s;
+}
+.navigation li>a{
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    top: 0;
+    line-height: 1em;
+    font-size: 1em;
+}
+.navigation li:nth-child(1){
+    transition: transform ease .5s;
+   transition-delay: .4s;
+}
+.navigation li:nth-child(2){
+    transition: transform ease .5s;
+   transition-delay: .2s;
+}
+
+.navigation.active li:nth-child(1){
+    transform: translate(-150%,-100%);
+    transition: transform ease .5s;
+   
+}
+.navigation.active li:nth-child(2){
+    transform: translate(-30%,-183%);
+    transition: transform ease .5s;
+    transition-delay: .2s;
+}
+.navigation.active li:nth-child(3){
+    transform: translate(80%,-100%);
+    transition: transform ease .5s;
+    transition-delay: .4s;
 }
