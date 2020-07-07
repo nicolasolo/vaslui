@@ -11,25 +11,24 @@
         <nav>
             <a href="http://index.html" class="logo">in<strong>Vaslui</strong></a>
             <div class="nav-button-wrapper">
-            <a class="nav-button">
-                +
-            </a>
-            <ul class="navigation">
-                <li><a href="http://">shops</a></li>
-                <li><a href="http://">meteo</a></li>
-                <li><a href="http://">stiri</a></li>
-            </ul>
-        </div>
+                
+<a class="navigation" href="http://" target="_blank" rel="noopener noreferrer">+</a>
+<ul class="links">
+    <li class="link"><a href="http://"></a>shops</li>
+    <li class="link"><a href="http://"></a>meteo</li>
+    <li class="link"><a href="http://"></a>stiri</li>
+</ul>
+            </div>
+            <a href="http://" class="copywrite" target="_blank" rel="noopener noreferrer">Copyright (C)<br> 2020 inVaslui</a>
         </nav>
-        <a href="http://" class="copywrite" target="_blank" rel="noopener noreferrer">Copyright (C) 2020 inVaslui</a>
     </header>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <script src="js/custom.min.js"></script>
     <script>
         $(function () {
-            $('.nav-button').click(function (e) { 
+            $('.navigation').click(function (e) { 
                 e.preventDefault();
-                $('.navigation').toggleClass('active');
+                $('.links').toggleClass('active');
             });
         });
     </script>
