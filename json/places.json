@@ -1,0 +1,97 @@
+{
+  "agro": [
+    {
+      "name": "Piata 1",
+      "description": "Piaza Agroalimentara",
+      "adress": {
+        "strada": "Bulevardul Traian",
+        "nr": 64
+      },
+      "orar": {
+        "lv": "07:00 - 19:00",
+        "s": "07:00 - 16:00",
+        "d": "07:00 - 16:00"
+      },
+      "picture": "https://adevarul.ro/assets/adevarul.ro/MRImage/2011/05/30/50a8850c7c42d5a6636f63e2/646x404.jpg",
+      "phone": {
+        "tel1": "",
+        "tel2": "0035"
+      }
+    },
+     {
+      "name": "Piata 2",
+      "description": "Piaza Agroalimentara",
+      "adress": {
+        "strada": "Bulevardul Traian",
+        "nr": 64
+      },
+      "orar": {
+        "lv": "07:00 - 19:00",
+        "s": "07:00 - 16:00",
+        "d": "07:00 - 16:00"
+      },
+      "picture": "https://adevarul.ro/assets/adevarul.ro/MRImage/2011/05/30/50a8850c7c42d5a6636f63e2/646x404.jpg",
+      "phone": {
+        "tel1": "",
+        "tel2": "0035"
+      }
+    },
+    {
+      "name": "Piata 3",
+      "description": "Piaza Agroalimentara",
+      "adress": {
+        "strada": "Bulevardul Traian",
+        "nr": 64
+      },
+      "orar": {
+        "lv": "07:00 - 19:00",
+        "s": "07:00 - 16:00",
+        "d": "07:00 - 16:00"
+      },
+      "picture": "https://adevarul.ro/assets/adevarul.ro/MRImage/2011/05/30/50a8850c7c42d5a6636f63e2/646x404.jpg",
+      "phone": {
+        "tel1": "",
+        "tel2": "0035"
+      }
+    }
+  ],
+  "alim": [
+    {
+      "name": "Piata alim1",
+      "description": "Piaza Agroalimentara",
+      "adress": {
+        "strada": "Bulevardul Traian",
+        "nr": 64
+      },
+      "orar": {
+        "lv": "07:00 - 19:00",
+        "s": "07:00 - 16:00",
+        "d": "07:00 - 16:00"
+      },
+      "picture": "https://adevarul.ro/assets/adevarul.ro/MRImage/2011/05/30/50a8850c7c42d5a6636f63e2/646x404.jpg",
+      "phone": {
+        "tel1": "",
+        "tel2": "0035"
+      }
+    },
+    {
+      "name": "Piata alim2",
+      "description": "Piaza Agroalimentara",
+      "adress": {
+        "strada": "Bulevardul Traian",
+        "nr": 64
+      },
+      "orar": {
+        "lv": "07:00 - 19:00",
+        "s": "07:00 - 16:00",
+        "d": "07:00 - 16:00"
+      },
+      "picture": "https://adevarul.ro/assets/adevarul.ro/MRImage/2011/05/30/50a8850c7c42d5a6636f63e2/646x404.jpg",
+      "phone": {
+        "tel1": "",
+        "tel2": "0035"
+      }
+    }
+  ]
+}
+
